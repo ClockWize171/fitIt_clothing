@@ -34,14 +34,14 @@ export default class SignIn extends Component {
                         name="email"
                         value={this.state.email}
                         handleChange={this.handleChange}
-                        label='email'
+                        label='Email'
                         required />
                     <FormInput
                         type="password"
                         name="password"
                         value={this.state.email}
                         handleChange={this.handleChange}
-                        label='password'
+                        label='Password'
                         required />
                     <div className="buttons">
                         <CustomButton type='submit'>Sign In</CustomButton>
